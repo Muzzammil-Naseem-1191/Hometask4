@@ -26,7 +26,7 @@ namespace Classes_P1_Q1
         {
             if (percentage < 0 || percentage > 100)
             {
-                Console.WriteLine("Invalid Discount amount, PLease enter between 0 and 100!");
+                Console.WriteLine("Invalid Discount amount,  PLease enter between 0 and 100!");
             }
             double discountAmount = (Price * percentage) / 100;
             Price -= discountAmount;
